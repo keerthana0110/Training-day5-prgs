@@ -1,6 +1,4 @@
 d=dict()
-l=int(input("enter the upper limit"))
-m=int(input("enter the lower limit"))
-for x in range(l,m):
+for x in range(1,4):
     d[x]=x**2
 print(d)  
